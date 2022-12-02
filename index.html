@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Pin-Hua's Website</title>
+        <link rel="icon" href="./assets/jpeg/favicon.jpg" />
+        <meta name="description" content="Pin-Hua's website" />
+
+        <link rel="stylesheet" href="css/style.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="header__content">
+                <div class="header__logo-container">
+                    <div class="header__logo-img-cont">
+                        <img
+                            src="./assets/jpeg/facebook.jpeg"
+                            alt="Pin-Hua Lee's Image"
+                            class="header__logo-img"
+                        />
+                    </div>
+                    <span class="header__logo-sub">Pin-Hua (Alice) Lee</span>
+                </div>
+                <div class="header__main">
+                    <ul class="header__links">
+                        <li class="header__link-wrapper">
+                            <a href="./index.html" class="header__link"> Home </a>
+                        </li>
+                        <li class="header__link-wrapper">
+                            <a href="./index.html#about" class="header__link">About </a>
+                        </li>
+                        <li class="header__link-wrapper">
+                            <a href="./index.html#experience" class="header__link">
+                                Experience
+                            </a>
+                        </li>
+                        <li class="header__link-wrapper">
+                            <a href="./index.html#projects" class="header__link">
+                                Projects
+                            </a>
+                        </li>
+                        <li class="header__link-wrapper">
+                            <a href="./index.html#contact" class="header__link">
+                                Contact
+                            </a>
+                        </li>
+                        <!-- <li class="header__link-wrapper">
+                            <div class="toggle">
+                                <input type="checkbox" id="toggle" />
+                                <label for="toggle"></label>
+                            </div>
+                        </li> -->
+                    </ul>
+
+                    <div class="header__main-ham-menu-cont">
+                        <img
+                            src="./assets/svg/ham-menu.svg"
+                            alt="hamburger menu"
+                            class="header__main-ham-menu"
+                        />
+                        <img
+                            src="./assets/svg/ham-menu-close.svg"
+                            alt="hamburger menu close"
+                            class="header__main-ham-menu-close d-none"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="header__sm-menu">
+                <div class="header__sm-menu-content">
+                    <ul class="header__sm-menu-links">
+                        <li class="header__sm-menu-link">
+                            <a href="./index.html"> Home </a>
+                        </li>
+
+                        <li class="header__sm-menu-link">
+                            <a href="./index.html#about"> About </a>
+                        </li>
+
+                        <li class="header__sm-menu-link">
+                            <a href="./index.html#projects"> Experience </a>
+                        </li>
+
+                        <li class="header__sm-menu-link">
+                            <a href="./index.html#experience"> Projects </a>
+                        </li>
+
+                        <li class="header__sm-menu-link">
+                            <a href="./index.html#contact"> Contact </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- Home Section -->
+        <section class="home-hero">
+            <div class="home-hero__content">
+                <h1 class="heading-primary">Hello, <span class="wave">🦄</span></h1>
+                <h1 class="heading-primary">My name is Pin-Hua Lee</h1>
+                <div class="home-hero__info">
+                    <p class="text-primary">
+                        I am currently applying for M.S./M.Eng. degree in computer science
+                        related fields.
+                    </p>
+                </div>
+                <div class="home-hero__cta">
+                    <a
+                        href="https://drive.google.com/file/d/1BxPT42FgHcc8OMxy0ILk8p9oO47U_Uza/view?usp=sharing"
+                        class="btn btn--bg"
+                        target="_blank"
+                        >See my resume</a
+                    >
+                </div>
+            </div>
+            <div class="home-hero__socials">
+                <!--LinkedIn-->
+                <div class="home-hero__social">
+                    <a
+                        href="https://www.linkedin.com/in/itsalicelee"
+                        class="home-hero__social-icon-link"
+                    >
+                        <img
+                            src="./assets/png/linkedin-ico.png"
+                            alt="icon"
+                            class="home-hero__social-icon"
+                        />
+                    </a>
+                </div>
+                <!--GitHub-->
+                <div class="home-hero__social">
+                    <a
+                        href="https://github.com/itsalicelee"
+                        class="home-hero__social-icon-link"
+                    >
+                        <img
+                            src="./assets/png/github-ico.png"
+                            alt="icon"
+                            class="home-hero__social-icon"
+                        />
+                    </a>
+                </div>
+                <!-- Medium -->
+                <div class="home-hero__social">
+                    <a
+                        href="https://medium.com/@alice668149"
+                        class="home-hero__social-icon-link"
+                    >
+                        <img
+                            src="./assets/png/medium-ico.png"
+                            alt="icon"
+                            class="home-hero__social-icon"
+                        />
+                    </a>
+                </div>
+                <!--Twitter-->
+                <!-- <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/twitter-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div> -->
+                <!--YouTube-->
+                <!-- <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/yt-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div> -->
+                <!--Instagram-->
+                <!-- <div class="home-hero__social">
+          <a
+            href="#"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/insta-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div> -->
+            </div>
+            <div class="home-hero__mouse-scroll-cont">
+                <div class="mouse"></div>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section id="about" class="about sec-pad">
+            <div class="main-container">
+                <h2 class="heading heading-sec heading-sec__mb-med">
+                    <span class="heading-sec__main">About Me</span>
+                    <span class="heading-sec__sub">
+                        I am an undergraduate student majoring in Economics at National
+                        Taiwan University with great interests in artificial intelligence
+                        and software engineering.
+                    </span>
+                </h2>
+                <div class="about__content">
+                    <div class="about__content-main">
+                        <h3 class="about__content-title">Get to know me!</h3>
+                        <div class="about__content-details">
+                            <p class="about__content-details-para">
+                                Hey! My name is
+                                <strong>Pin-Hua Lee</strong>. You can call me
+                                <b>Alice</b>🌻.
+                            </p>
+                            <p class="about__content-details-para">
+                                My name is written in Chinese as 李品樺, and pronounced as
+                                <audio controls>
+                                    <source
+                                        src="./assets/audio/phlee.mp3"
+                                        type="audio/mpeg"
+                                    />
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </p>
+
+                            <p class="about__content-details-para">
+                                Currently I'm an undergraduate student majoring in
+                                Economics at National Taiwan University (NTU). I am
+                                interested in machine learing, systems design and web
+                                development.
+                            </p>
+                            <p class="about__content-details-para">
+                                My cumulative and CS-related GPAs are <b>3.95/4.3</b> and
+                                <b>4.11/4.30</b>, respectively.
+                            </p>
+                        </div>
+                        <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+                            >Contact Me</a
+                        >
+                    </div>
+                    <div class="about__content-skills">
+                        <h3 class="about__content-title">My Skills</h3>
+                        <div class="skills">
+                            <div class="skills__skill">Python</div>
+                            <div class="skills__skill">C/C++</div>
+                            <div class="skills__skill">SQL</div>
+                            <div class="skills__skill">HTML</div>
+                            <div class="skills__skill">CSS</div>
+                            <div class="skills__skill">JavaScript/TypeScript</div>
+                            <div class="skills__skill">ReactJS</div>
+                            <div class="skills__skill">NodeJS</div>
+                            <div class="skills__skill">npm</div>
+                            <div class="skills__skill">PyTorch</div>
+                            <div class="skills__skill">Azure</div>
+                            <div class="skills__skill">Kubernetes</div>
+                            <div class="skills__skill">Docker</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Experience Section -->
+        <section id="experience" class="projects sec-pad">
+            <div class="main-container">
+                <h2 class="heading heading-sec heading-sec__mb-bg">
+                    <span class="heading-sec__main">Experience</span>
+                    <span class="heading-sec__sub">
+                        Here are my recent research and work experiences🙇‍♀️
+                    </span>
+                </h2>
+
+                <div class="projects__content">
+                    <!-- Experience 1 -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img
+                                src="./assets/png/accv_system_diag.png"
+                                alt="ACCV system diagram"
+                                class="projects__row-img"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">
+                                Research Assistant, Academia Sinica
+                            </h3>
+                            <p class="projects__row-content-desc">
+                                <b>Research Topic: Kinship Face Synthesis</b>
+                            </p>
+                            <p class="projects__row-content-desc">
+                                Generated high-fidelity kinship faces given parental
+                                images, and improved state-of-the-art methodologies of kin
+                                face manipulation. This work was accepted by
+                                <b>Asian Conference on Computer Vision (ACCV) 2022</b>.
+                            </p>
+                            <a
+                                href="https://openaccess.thecvf.com/content/ACCV2022/html/Cheng_KinStyle_A_Strong_Baseline_Photorealistic_Kinship_Face_Synthesis_with_An_ACCV_2022_paper.html"
+                                class="btn btn--med btn--theme dynamicBgClr"
+                                target="_blank"
+                                >Link to paper</a
+                            >
+                        </div>
+                    </div>
+                    <!-- Experience 3 -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img
+                                src="./assets/jpeg/apim.jpg"
+                                alt="Software Screenshot"
+                                class="projects__row-img"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">
+                                Softwarer Engineering Intern, Microsoft Taiwan
+                            </h3>
+                            <p class="projects__row-content-desc">
+                                Built Proof of Concept workflows for cloud computing and
+                                hybrid cloud services on Azure. Installed infrastructure
+                                of Azure Stack HCI and developed demo applications on it.
+                                I developed a real-time stock analysis website with a
+                                self-hosted gateway on Azure Stack HCI using Arc-enabled
+                                API Management service.
+                            </p>
+                            <!-- <a
+                                href="https://ieeexplore.ieee.org/document/9830261"
+                                class="btn btn--med btn--theme dynamicBgClr"
+                                target="_blank"
+                                >Link to paper</a
+                            > -->
+                        </div>
+                    </div>
+                    <!-- Experience 4 -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <video controls width="750">
+                                <source
+                                    src="./assets/video/Azure Face API on PowerApps Demo.mp4"
+                                    type="video/mp4"
+                                />
+                                Your browser does not support the video element
+                            </video>
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">
+                                Workshop lecturer at Coding Angels Event, Microsoft Taiwan
+                            </h3>
+                            <p class="projects__row-content-desc">
+                                Guided 120+ female undergraduates to build a face
+                                detection application via PowerApps to support women in
+                                tech.
+                            </p>
+                            <!-- <a
+                                href="https://ieeexplore.ieee.org/document/9830261"
+                                class="btn btn--med btn--theme dynamicBgClr"
+                                target="_blank"
+                                >Link to paper</a
+                            > -->
+                        </div>
+                    </div>
+                    <!-- Experience 5 -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img
+                                src="./assets/jpeg/pbc_ta.JPG"
+                                alt="Software Screenshot"
+                                class="projects__row-img"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">
+                                Teaching Assistant, National Taiwan University
+                            </h3>
+                            <p class="projects__row-content-desc">
+                                I was the Teachinig Assistant of the class, Programming in
+                                Business Computing, instructed by Prof. Ling-Chieh Kung.
+                                Instructed fundamental Python during office hours twice a
+                                week for programming beginners, and provided office hours
+                                twice a week for 40+ students
+                            </p>
+                            <!-- <a
+                                href="./project-3.html"
+                                class="btn btn--med btn--theme dynamicBgClr"
+                                target="_blank"
+                                >Case Study</a
+                            > -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Project Section -->
+        <section id="projects" class="projects sec-pad">
+            <div class="main-container">
+                <h2 class="heading heading-sec heading-sec__mb-bg">
+                    <span class="heading-sec__main">Selected Projects</span>
+                    <span class="heading-sec__sub"> I make some projects for fun🧚‍♀️ </span>
+                </h2>
+
+                <div class="projects__content">
+                    <!-- Project 1 -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img
+                                src="./assets/png/lexicalegend.png"
+                                width="20%"
+                                alt="Software Screenshot"
+                                class="projects__row-img"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">Lexicalegend</h3>
+                            <p class="projects__row-content-desc">
+                                I designed an interactive chatbot in TypeScript supporting
+                                vocabulary learning for 850+ users. By integrating
+                                multiple English-Mandarin dictionary references in the
+                                chatbot, people can learn English in a more entertain and
+                                efficient manner.
+                            </p>
+                            <a
+                                href="https://github.com/itsalicelee/Lexicalegend"
+                                class="btn btn--med btn--theme dynamicBgClr"
+                                target="_blank"
+                                >View Codes</a
+                            >
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img
+                                src="./assets/png/long_tail.png"
+                                alt="Software Screenshot"
+                                class="projects__row-img"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">
+                                Long Tail Annihilator
+                            </h3>
+                            <p class="projects__row-content-desc">
+                                Proposed a bilateral-branch network with the Swin
+                                Transformer backbone to perform long-tail fine- grained
+                                food classification (ICCV’21 Workshop Challenge). Achieved
+                                88.07%/85.04%/65.73% accuracy on frequent/common/rare
+                                track (number of data: 100+/10~100/<10) on 1000-class food
+                                image classification
+                            </p>
+                            <p>
+                                <a
+                                    href="https://github.com/itsalicelee/DLCV-Fall-2021/blob/master/final-project/poster_final.pdf"
+                                    class="btn btn--med btn--theme dynamicBgClr"
+                                    target="_blank"
+                                    >View Full Poster</a
+                                >
+                            </p>
+                            <p>
+                                <a
+                                    href="https://github.com/itsalicelee/DLCV-Fall-2021/tree/master/final-project"
+                                    class="btn btn--med btn--theme dynamicBgClr"
+                                    target="_blank"
+                                    >View codes</a
+                                >
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img
+                                src="./assets/png/final_warrior.png"
+                                alt="Software Screenshot"
+                                class="projects__row-img"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">Final Warrior</h3>
+                            <p class="projects__row-content-desc">
+                                Developed a 2D PC game using Python. Players use the
+                                keyboard to control the character in the game to dodge
+                                bullets.
+                            </p>
+                            <a
+                                href="https://github.com/itsalicelee/Final-Warrior"
+                                class="btn btn--med btn--theme dynamicBgClr"
+                                target="_blank"
+                                >View Codes</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="contact sec-pad dynamicBg">
+            <div class="main-container">
+                <h2 class="heading heading-sec heading-sec__mb-med">
+                    <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+                    <span class="heading-sec__sub heading-sec__sub--lt">
+                        Feel free to reach out to me if you have any inquiries!
+                    </span>
+                </h2>
+                <div class="contact__form-container">
+                    <!--Register here and add your link to the tag: https://formspree.io/-->
+                    <form
+                        action="https://formspree.io/f/xbjbvqqw"
+                        method="POST"
+                        class="contact__form"
+                    >
+                        <div class="contact__form-field">
+                            <label class="contact__form-label" for="name">Name</label>
+                            <input
+                                required
+                                placeholder="Enter Your Name"
+                                type="text"
+                                class="contact__form-input"
+                                name="name"
+                                id="name"
+                            />
+                        </div>
+                        <div class="contact__form-field">
+                            <label class="contact__form-label" for="email">Email</label>
+                            <input
+                                required
+                                placeholder="Enter Your Email"
+                                type="text"
+                                class="contact__form-input"
+                                name="email"
+                                id="email"
+                            />
+                        </div>
+                        <div class="contact__form-field">
+                            <label class="contact__form-label" for="message"
+                                >Message</label
+                            >
+                            <textarea
+                                required
+                                cols="30"
+                                rows="10"
+                                class="contact__form-input"
+                                placeholder="Enter Your Message"
+                                name="message"
+                                id="message"
+                            ></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--theme contact__btn">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="main-footer">
+            <div class="main-container">
+                <div class="main-footer__upper">
+                    <div class="main-footer__row main-footer__row-1">
+                        <h2 class="heading heading-sm main-footer__heading-sm">
+                            <span>Social</span>
+                        </h2>
+                        <div class="main-footer__social-cont">
+                            <!--LinkedIn-->
+                            <a
+                                target="https://www.linkedin.com/in/%E5%A5%95%E5%BB%B7-%E6%9E%97-254291129/"
+                                rel="noreferrer"
+                                href="#"
+                            >
+                                <img
+                                    class="main-footer__icon"
+                                    src="./assets/png/linkedin-ico.png"
+                                    alt="icon"
+                                />
+                            </a>
+                            <!--GitHub-->
+                            <a
+                                target="https://github.com/Lin0611"
+                                rel="noreferrer"
+                                href="#"
+                            >
+                                <img
+                                    class="main-footer__icon"
+                                    src="./assets/png/github-ico.png"
+                                    alt="icon"
+                                />
+                            </a>
+                            <!--Medium-->
+                            <a
+                                target="https://medium.com/@alice668149"
+                                rel="noreferrer"
+                                href="#"
+                            >
+                                <img
+                                    class="main-footer__icon"
+                                    src="./assets/png/medium-ico.png"
+                                    alt="icon"
+                                />
+                            </a>
+                            <!--Twitter-->
+                            <!-- <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a> -->
+                            <!--Youtube-->
+                            <!-- <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a> -->
+                            <!--Instagram-->
+                            <!-- <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a> -->
+                        </div>
+                    </div>
+                    <div class="main-footer__row main-footer__row-2">
+                        <h4 class="heading heading-sm text-lt">Pin-Hua Lee</h4>
+                        <p class="main-footer__short-desc">
+                            © 2022 Pin-Hua Lee. All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
