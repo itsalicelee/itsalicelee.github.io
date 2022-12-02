@@ -31,6 +31,7 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
+
 @media only screen and (max-width: 75em) {
     html {
         font-size: 59%;
@@ -125,12 +126,16 @@ textarea {
 .heading-sec__main--lt {
     color: #fff;
 }
-.heading-sec__main--lt.dark-theme {
+.heading-sec__main--lt .dark-theme {
     color: #333;
 }
 .heading-sec__main--lt::after {
     content: '';
     background: #fff !important;
+}
+.heading-sec__main--lt::after {
+    content: '';
+    background: #333 !important;
 }
 .heading-sec__main::after {
     content: '';
@@ -664,6 +669,7 @@ textarea {
     background: #fff;
     box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 }
+
 .header__content {
     display: flex;
     align-items: center;
@@ -982,8 +988,8 @@ h1 {
     display: inline-block;
     position: relative;
     transition: all ease-in-out 0.3s;
-    width: 100px;
-    height: 50px;
+    width: 50px;
+    height: 25px;
 }
 
 .toggle label::after {
@@ -996,8 +1002,8 @@ h1 {
     left: 2px;
     top: 2px;
     transition: all ease-in-out 0.3s;
-    width: 42px;
-    height: 42px;
+    width: 17px;
+    height: 17px;
 }
 
 .toggle input[type='checkbox']:checked ~ label {
@@ -1007,5 +1013,17 @@ h1 {
 
 .toggle input[type='checkbox']:checked ~ label::after {
     background-color: #0054b0;
-    transform: translateX(50px);
+    transform: translateX(25px);
+}
+.dark-theme {
+    background-color: #333;
+    color: white;
+}
+
+.header .dark-theme {
+    background: #333;
+}
+
+.header__link .dark-theme {
+    color: #fff;
 }
