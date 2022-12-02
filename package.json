@@ -16,5 +16,8 @@
     "node-sass": "^6.0.1",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^8.3.1"
+  },
+  "dependencies": {
+    "magicmouse.js": "^1.2.1"
   }
 }

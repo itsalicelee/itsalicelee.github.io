@@ -277,7 +277,7 @@ textarea {
         display: none;
     }
 }
-.home-hero__mouse-scroll-cont {
+/* .home-hero__mouse-scroll-cont {
     position: absolute;
     bottom: 3%;
     left: 50%;
@@ -287,7 +287,7 @@ textarea {
     .home-hero__mouse-scroll-cont {
         display: none;
     }
-}
+} */
 .home-hero__social {
     width: 5rem;
 }
