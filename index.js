@@ -5,22 +5,6 @@ const headerHamMenuBtn = document.querySelector('.header__main-ham-menu');
 const headerHamMenuCloseBtn = document.querySelector('.header__main-ham-menu-close');
 const headerSmallMenuLinks = document.querySelectorAll('.header__sm-menu-link');
 
-function reveal() {
-    var reveals = document.querySelectorAll('.reveal');
-    for (var i = 0; i < reveals.length; i++) {
-        var windowHeight = window.innerHeight;
-        var elementTop = reveals[i].getBoundingClientRect().top;
-        var elementVisible = 150;
-        if (elementTop < windowHeight - elementVisible) {
-            reveals[i].classList.add('active');
-        } else {
-            reveals[i].classList.remove('active');
-        }
-    }
-}
-
-window.addEventListener('scroll', reveal);
-
 hamMenuBtn.addEventListener('click', () => {
     if (smallMenu.classList.contains('header__sm-menu--active')) {
         smallMenu.classList.remove('header__sm-menu--active');
